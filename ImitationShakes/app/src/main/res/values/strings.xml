@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">仿抖音APP</string>
+
+    <string name="main_title_tv1">推荐</string>
+    <string name="main_title_tv2">同城</string>
+</resources>

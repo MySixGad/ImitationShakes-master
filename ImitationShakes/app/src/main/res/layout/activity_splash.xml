@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.oklg.imitationshakes.activity.SplashActivity">
+
+
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/viewpager_sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v4.view.ViewPager>
+
+    <ImageView
+        android:src="@mipmap/sp_icon"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:id="@+id/sp_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
